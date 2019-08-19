@@ -1,5 +1,6 @@
 import random
 
+
 def jogar():
 
     print("*****************************************")
@@ -42,13 +43,16 @@ def jogar():
             break
         else:
             if(eh_maior):
-                print("Você errou! O número digitado é maior que o número secreto")
+                print("Você errou! "
+                      "O número digitado é maior que o número secreto")
             elif(eh_menor):
-                print("Você errou! O número digitado é menor que o número secreto")
+                print("Você errou! "
+                      "O número digitado é menor que o número secreto")
             pontos_perdidos = abs(numero_secreto - chute)
             pontuacao = pontuacao - pontos_perdidos
 
     print("Fim do jogo!")
+
 
 if(__name__ == "__main__"):
     jogar()
