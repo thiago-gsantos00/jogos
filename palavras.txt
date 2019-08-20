@@ -1,0 +1,7 @@
+﻿arroz
+feijão
+macarrão
+banana
+maçã
+abacaxi
+repolho
